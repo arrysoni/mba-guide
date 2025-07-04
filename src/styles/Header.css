@@ -1,0 +1,36 @@
+.header-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-title {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background-color: #cce5ff;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 60%;
+    line-height: 1.4;
+  }
+  
+  .menu-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: white;
+    font-weight: 500;
+  }
+  
